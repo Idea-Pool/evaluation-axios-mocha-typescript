@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "default": {},
+  "required": [
+      "id",
+      "title",
+      "userId",
+      "content",
+      "likes",
+      "hits",
+      "categoryId",
+      "imageUrl"
+  ],
+  "properties": {
+      "id": {
+          "$id": "#/properties/id",
+          "type": "integer",
+          "title": "The id schema",
+          "default": 0
+      },
+      "title": {
+          "$id": "#/properties/title",
+          "type": "string",
+          "title": "The title schema",
+          "default": ""
+      },
+      "userId": {
+          "$id": "#/properties/userId",
+          "type": "integer",
+          "title": "The userId schema",
+          "default": 0
+      },
+      "content": {
+          "$id": "#/properties/content",
+          "type": "string",
+          "title": "The content schema",
+          "default": ""
+      },
+      "likes": {
+          "$id": "#/properties/likes",
+          "type": "integer",
+          "title": "The likes schema",
+          "default": 0
+      },
+      "hits": {
+          "$id": "#/properties/hits",
+          "type": "integer",
+          "title": "The hits schema",
+          "default": 0
+      },
+      "categoryId": {
+          "$id": "#/properties/categoryId",
+          "type": "integer",
+          "title": "The categoryId schema",
+          "default": 0
+      },
+      "imageUrl": {
+          "$id": "#/properties/imageUrl",
+          "type": "string",
+          "title": "The imageUrl schema",
+          "default": ""
+      }
+  },
+  "additionalProperties": true
+}

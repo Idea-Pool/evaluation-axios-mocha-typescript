@@ -1,0 +1,50 @@
+{
+  "name": "fake-api-test-scenarios",
+  "version": "1.0.0",
+  "description": "Acceptance tests: Fake api tests",
+  "scripts": {
+    "mocha": "node -r ts-node/register -r tsconfig-paths/register ./mocha-runner.ts",
+    "test": "npm run mocha"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/chai-json-schema": "^1.4.6",
+    "@types/lodash": "^4.14.158",
+    "@types/mocha": "^7.0.1",
+    "@types/node": "^14.0.27",
+    "@types/randomstring": "^1.1.6",
+    "axios": "^0.19.2",
+    "chai": "^4.2.0",
+    "chai-json-schema": "^1.5.1",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.19",
+    "mocha": "^7.2.0",
+    "path": "^0.12.7",
+    "ts-node": "^8.10.2",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.8.2"
+  },
+  "dependencies": {
+    "randomstring": "^1.1.5"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Idea-Pool/evaluation-axios-mocha-typescript.git"
+  },
+  "keywords": [
+    "e2e",
+    "typescript",
+    "axios",
+    "mocha"
+  ],
+  "author": "Mariia Parfeniuk",
+  "bugs": {
+    "url": "https://github.com/Idea-Pool/evaluation-axios-mocha-typescript/issues"
+  },
+  "homepage": "https://github.com/Idea-Pool/evaluation-axios-mocha-typescript#readme"
+}
